@@ -1,0 +1,57 @@
+WiFiQRApp {
+}
+
+Screen {
+    align: center middle;
+}
+
+OptionScreen {
+    border: orange;
+}
+
+InputScreen {
+    border: yellow;
+}
+
+QRScreen {
+    border: green;
+}
+
+SuccessScreen {
+    border: lime;
+}
+
+FailureScreen {
+    border: red;
+}
+
+Button {
+    width: 20;
+}
+
+Input {
+    width: 20;
+    border: yellow;
+}
+
+#input, #submit {
+    border: yellow;
+}
+
+#qr, #qrscan {
+    border: green;  
+}
+
+.back, #quit {
+    border: red;
+}
+
+#success {
+    color: lime;
+    width: 20;
+}
+
+#fail {
+    color: red;
+    width: 20;
+}
