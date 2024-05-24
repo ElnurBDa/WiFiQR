@@ -9,6 +9,7 @@ pip install -r requirements.txt
 ### Terminal Commands
 - `zbarcam` - for QR from Webcam
 - `nmcli` - to connect WiFi
+
 Install on Arch:
 ```bash
 yay -S zbar python-textual networkmanager
